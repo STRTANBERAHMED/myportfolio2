@@ -9,14 +9,9 @@ const AboutMe = () => {
                     <img src={pic2} alt="" />
                 </div>
                 <div className="col-md-7 mt-5 text-start">
-                    <h1>Welcome To</h1>
-                    <h1><span class="orange-color">MD TANBER</span> World!</h1>
-                    <h3>Build Climber and Train Stopper</h3>
-                    <p>You might saw me jumping, climbing buildings, and stopping trains. But nobody pays me a dime for that
-                        work.
-                        That's why I am learning and mastering web development. I will not stop until I become the Web
-                        Development
-                        Hero. </p>
+                    <h1>Dream Big</h1>
+                    <h3>Become a Pro Level Web Developer</h3>
+                    <p>I already learned HTML5, CSS3, JAVASCRIPT, BOOTSTRAP, TAILWIND, MATERIAL UI, REACT JS, REACT PRIVATE ROUTER, REACT HOOK FORM, FIREBASE etc. I can build any frontend website. My goal is to became a pro level web developer.</p>
                 </div>
             </div>
         </div>

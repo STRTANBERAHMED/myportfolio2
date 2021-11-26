@@ -1,26 +1,31 @@
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="footer bg-dark p-5 text-white">
+        <div className="footer p-5 text-white">
             <h1>Contact Info</h1>
             <div className="d-flex justify-content-center mt-4">
                 <div className="row">
-                    <div className="col-md-4">
-                        <h3>Address</h3>
-                        <p>Baris Mahalle, Safranbolu, Turkey</p>
+                    <div className="col-md-3">
+                        <h3>Current Address</h3>
+                        <p>Baris Mahalle, Safranbolu, Karabuk, Turkey</p>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-3">
+                        <h3>Parmanent Address</h3>
+                        <p>Nandail, Mymensingh, Bnagladesh</p>
+                    </div>
+                    <div className="col-md-3">
                         <h3>Phone</h3>
-                        <p>7946-5123</p>
+                        <p>+905527316001</p>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-3">
                         <h3>Email</h3>
-                        <p>strcar@world.com</p>
+                        <p>md.tanber4433@gmail.com</p>
                     </div>
                 </div>
             </div>
-            <p>©2021. Str Car World. All rights reserved. STR Group.</p>
+            <p>©2021. Md Tanber portfolio. All rights reserved.</p>
         </div>
     );
 };

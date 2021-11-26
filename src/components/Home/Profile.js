@@ -8,7 +8,7 @@ const Profile = () => {
             <div className="row">
                 <div className="col-md-7 mt-5 text-start">
                     <h1>Welcome To</h1>
-                    <h1><span class="orange-color">STR TANBER AHMED</span> World!</h1>
+                    <h1><span class="orange-color">MD TANBER</span> World!</h1>
                     <h3>Build Climber and Train Stopper</h3>
                     <p>You might saw me jumping, climbing buildings, and stopping trains. But nobody pays me a dime for that
                         work.
