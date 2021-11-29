@@ -1,3 +1,12 @@
+.profile{
+    background-image: linear-gradient(rgb(240, 251, 252), rgb(151, 232, 247));
+  /* min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center; */
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
 .orange-color{
     color: orange;
     }
@@ -6,7 +15,7 @@
     }
 .link-button{
      text-decoration: none;
-     background-image: linear-gradient(rgb(0, 238, 255), rgb(71, 135, 255));
+     background-image: linear-gradient(rgb(250, 177, 42), rgb(255, 125, 102));
      padding: 10px 40px;
      color: white;
      font-weight: 700;

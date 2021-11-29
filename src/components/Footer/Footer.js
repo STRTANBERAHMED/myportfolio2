@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="footer p-5 text-white">
+        <div className="footer p-5 text-dark">
             <h1>Contact Info</h1>
             <div className="d-flex justify-content-center mt-4">
                 <div className="row">

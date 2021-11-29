@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 const Appbar = () => {
     return (
         <>
-            <Navbar bg="light" variant="light" sticky="top" collapseOnSelect expand="lg" >
+            <Navbar bg="none" variant="light" sticky="top" collapseOnSelect expand="lg" >
                 <Container>
                     <Navbar.Brand href="/home">STR</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         <Navbar.Text>
+                            <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>

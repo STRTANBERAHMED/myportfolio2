@@ -1,0 +1,8 @@
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(250, 177, 42), rgb(255, 125, 102));
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+   }
