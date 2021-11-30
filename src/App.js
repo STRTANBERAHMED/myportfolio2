@@ -11,6 +11,7 @@ import NotFound from './components/NotFound/NotFound';
 import ContactForm from './components/ContactForm/ContactForm';
 import Projects from './components/Projects/Projects';
 import Blogs from './components/Blogs/Blogs';
+import AboutMe from './components/AboutMe/AboutMe';
 
 function App() {
   return (
@@ -25,10 +26,13 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
+            <Route path="/aboutMe">
+              <AboutMe></AboutMe>
+            </Route>
             <Route path="/blogs">
               <Blogs></Blogs>
             </Route>
-            <Route path="/projects">
+            <Route path="/projects/:projectId">
               <Projects></Projects>
             </Route>
             <Route path="/contactMe">

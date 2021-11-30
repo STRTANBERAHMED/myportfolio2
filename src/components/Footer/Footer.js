@@ -16,12 +16,12 @@ const Footer = () => {
                         <p>Nandail, Mymensingh, Bnagladesh</p>
                     </div>
                     <div className="col-md-3">
-                        <h3>Phone</h3>
-                        <p>+905527316001</p>
-                    </div>
-                    <div className="col-md-3">
                         <h3>Email</h3>
                         <p>md.tanber4433@gmail.com</p>
+                    </div>
+                    <div className="col-md-3">
+                        <h3>Phone</h3>
+                        <p>+905527316001</p>
                     </div>
                 </div>
             </div>
