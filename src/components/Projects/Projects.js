@@ -1,29 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import Project from '../Project/Project';
+import React from 'react';
+import './Projects.css';
+import Appbar from '../Appbar/Appbar';
+import Footer from '../Footer/Footer';
 
 const Projects = () => {
-
-    const [projects, setProjects] = useState([]);
-
-    useEffect(() => {
-        fetch('/projects.json')
-            .then(res => res.json())
-            .then(data => setProjects(data))
-    }, [])
-
     return (
-        <div className="m-5">
-            <div className="text-center">
-                <h1>Projects</h1>
-            </div>
-            <div className="row w-100 p-5 text-center">
-                {
-                    projects.map(project => <Project
-                        key={Project.id}
-                        project={project}
-                    ></Project>)
-                }
-            </div>
+        <div>
+            <Appbar></Appbar>
+            <h1 className="projects">this is projects</h1>
+            <Footer></Footer>
         </div>
     );
 };

@@ -17,7 +17,7 @@
         "id": "3",
         "name": "Medicare",
         "image": "https://ibb.co/rbnJmLj",
-        "type": "A fully functional frontend web application.",
+        "type": "A fully functional frontend web application",
         "about": "1/ It’s a Healthcare site. Without login, users cannot see the details about departments. 2/ Firebase is used for authentication. Responsive for mobile and computer. 3/ Used Tools: VS Code,  React Js, Bootstrap, Firebase."
     }
 ]

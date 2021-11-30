@@ -3,13 +3,13 @@ import Profile from './Profile';
 import AboutMe from '../AboutMe/AboutMe';
 import Skills from '../Skills/Skills';
 import Footer from '../Footer/Footer';
-import Projects from '../Projects/Projects';
+import MyProjects from '../MyProjects/MyProjects';
 
 const Home = () => {
     return (
-        <div>
+        <div id="home">
             <Profile></Profile>
-            <Projects></Projects>
+            <MyProjects></MyProjects>
             <AboutMe></AboutMe>
             <Skills></Skills>
             <Footer></Footer>
