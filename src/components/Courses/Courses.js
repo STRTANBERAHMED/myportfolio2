@@ -1,11 +1,12 @@
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import './Courses.css';
+// import { Button } from 'react-bootstrap';
+// import { NavLink } from 'react-router-dom';
 
 const Courses = (props) => {
 
     // destructuring
-    const { _id, name, about, picture } = props.course || {}
+    const { name, about, picture, liveSite } = props.course || {}
 
     return (
 
@@ -17,11 +18,12 @@ const Courses = (props) => {
                         <h5 className="card-title">{name}</h5>
                         <p className="card-text">{about}</p>
                     </div>
-                    <NavLink to={`/projects/${_id}`}>
+                    <a className="link-button" target="_blank" href={liveSite}>Visit</a>
+                    {/* <NavLink to={}>
                         <Button className="link-button my-4" variant="dark">
                             Visit
                         </Button>
-                    </NavLink>
+                    </NavLink> */}
                 </div>
             </div>
             {/* <Card style={{ width: '18rem' }}>

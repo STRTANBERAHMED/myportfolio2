@@ -3,18 +3,21 @@
         "_id": "61a64ad67b981400cccf4625",
         "picture": "https://i.ibb.co/8Dr7cms/img1.png",
         "name": "Str Car World",
+        "liveSite": "https://car-world-97a21.web.app/home",
         "about": "A fully functional full-stack web application"
     },
     {
         "_id": "61a64ad63f808a60bed89300",
         "picture": "https://i.ibb.co/P5rytKr/img2.png",
         "name": "Islamic Education",
+        "liveSite": "https://islamic-education-5ec647.netlify.app",
         "about": "A fully functional frontend web application"
     },
     {
         "_id": "61a64ad6e3b0e59e0dbe2e1c",
         "picture": "https://i.ibb.co/FnByfVs/img3.png",
         "name": "Medicare",
+        "liveSite": "https://medicare-ded91.web.app/home",
         "about": "A fully functional frontend web application"
     }
 ]

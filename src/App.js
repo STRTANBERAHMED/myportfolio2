@@ -32,7 +32,7 @@ function App() {
             <Route path="/blogs">
               <Blogs></Blogs>
             </Route>
-            <Route path="/projects/:projectId">
+            <Route path="/projects">
               <Projects></Projects>
             </Route>
             <Route path="/contactMe">
