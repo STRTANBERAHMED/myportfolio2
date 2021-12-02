@@ -1,23 +1,38 @@
 [
     {
         "_id": "61a64ad67b981400cccf4625",
-        "picture": "https://i.ibb.co/8Dr7cms/img1.png",
         "name": "Str Car World",
-        "liveSite": "https://car-world-97a21.web.app/home",
-        "about": "A fully functional full-stack web application"
+        "type": "A fully functional full-stack web application",
+        "about": "1/ It’s an e-commerce project, users can purchase any car based on their preference. When any user clicks the buy now button page will put her/him on the login page. If she/he doesn’t create an account yet then they should go to the registration page. After the registration/login, they can place their orders and they also can manage their orders. 2/ It’s fully responsive for mobile and computer. It has a customized admin panel where the admin can add a product, remove a product, approve the product, and make an admin. 3/ Used Tools: VS Code,  React Js, Bootstrap, Firebase, Node Js, MongoDB, Heroku.",
+        "image": "https://i.ibb.co/YtZT3Wg/img1.jpg",
+        "screenshot1": "https://i.ibb.co/WWPGKmZ/screencapture-car-world-97a21-web-app-home-2021-12-03-00-29-09.png",
+        "screenshot2": "https://i.ibb.co/nLjjt54/screencapture-car-world-97a21-web-app-admin-Dashboard-2021-12-02-23-16-56.png",
+        "screenshot3": "https://i.ibb.co/Q8SsPBw/screencapture-car-world-97a21-web-app-place-Orders-618e9762d43bf4142378afc7-2021-12-02-23-16-00.png",
+        "github": "https://github.com/STRTANBERAHMED/str-car-world-main",
+        "liveSite": "https://car-world-97a21.web.app/home"
     },
     {
         "_id": "61a64ad63f808a60bed89300",
-        "picture": "https://i.ibb.co/P5rytKr/img2.png",
         "name": "Islamic Education",
-        "liveSite": "https://islamic-education-5ec647.netlify.app",
-        "about": "A fully functional frontend web application"
+        "type": "A fully functional frontend web application",
+        "about": "1/ It’s an education-related site where users can buy a book based on their preference. 2/ Fully responsive for mobile and computer. 3/ Used Tools: VS Code,  React Js, Bootstrap, Netlify.",
+        "image": "https://i.ibb.co/DKBcmhY/img2.jpg",
+        "screenshot1": "https://i.ibb.co/P5rytKr/img2.png",
+        "screenshot2": "https://i.ibb.co/hC0vjGs/screencapture-islamic-education-5ec647-netlify-app-services-2021-12-02-23-53-45.png",
+        "screenshot3": "https://i.ibb.co/t8MLxhk/screencapture-islamic-education-5ec647-netlify-app-blog-2021-12-02-23-54-02.png",
+        "github": "https://github.com/STRTANBERAHMED/islamic-education",
+        "liveSite": "https://islamic-education-5ec647.netlify.app"
     },
     {
         "_id": "61a64ad6e3b0e59e0dbe2e1c",
-        "picture": "https://i.ibb.co/FnByfVs/img3.png",
         "name": "Medicare",
-        "liveSite": "https://medicare-ded91.web.app/home",
-        "about": "A fully functional frontend web application"
+        "type": "A fully functional frontend web application",
+        "about": "1/ It’s a Healthcare site. Without login, users cannot see the details about departments. 2/ Firebase is used for authentication. Responsive for mobile and computer. 3/ Used Tools: VS Code,  React Js, Bootstrap, Firebase.",
+        "image": "https://i.ibb.co/h2k17fq/img3.jpg",
+        "screenshot1": "https://i.ibb.co/FnByfVs/img3.png",
+        "screenshot2": "https://i.ibb.co/n3F0scq/screencapture-medicare-ded91-web-app-services-2021-12-03-00-04-25.png",
+        "screenshot3": "https://i.ibb.co/mJRsmBb/screencapture-medicare-ded91-web-app-blogs-2021-12-03-00-03-08.png",
+        "github": "https://github.com/STRTANBERAHMED/medicare",
+        "liveSite": "https://medicare-ded91.web.app/home"
     }
 ]

@@ -1,29 +1,28 @@
 import React from 'react';
 import './Courses.css';
-// import { Button } from 'react-bootstrap';
-// import { NavLink } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 const Courses = (props) => {
 
     // destructuring
-    const { name, about, picture, liveSite } = props.course || {}
+    const { _id, name, type, image } = props.course || {}
 
     return (
 
         <div>
             <div className="col">
                 <div className="card h-100">
-                    <img src={picture} className="card-img-top" alt="..." />
+                    <img src={image} className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">{name}</h5>
-                        <p className="card-text">{about}</p>
+                        <p className="card-text">{type}</p>
                     </div>
-                    <a className="link-button" target="_blank" href={liveSite}>Visit</a>
-                    {/* <NavLink to={}>
+                    <NavLink to={`/projects/${_id}`}>
                         <Button className="link-button my-4" variant="dark">
-                            Visit
+                            Details
                         </Button>
-                    </NavLink> */}
+                    </NavLink>
                 </div>
             </div>
             {/* <Card style={{ width: '18rem' }}>
