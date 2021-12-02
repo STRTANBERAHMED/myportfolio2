@@ -1,12 +1,12 @@
 import React from 'react';
-import './Courses.css';
+import './MyWorks.css';
 import { Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
-const Courses = (props) => {
+const MyWorks = (props) => {
 
     // destructuring
-    const { _id, name, type, image } = props.course || {}
+    const { _id, name, type, image } = props.myWork || {}
 
     return (
 
@@ -25,18 +25,8 @@ const Courses = (props) => {
                     </NavLink>
                 </div>
             </div>
-            {/* <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={picture} />
-                    <Card.Body>
-                        <Card.Title>Course Name: {name}</Card.Title>
-                        <Card.Text>
-                            <p>price: ${price}</p>
-                        </Card.Text>
-                        <Button variant="dark">visit</Button>
-                    </Card.Body>
-                </Card> */}
         </div>
     );
 };
 
-export default Courses;
+export default MyWorks;

@@ -14,7 +14,7 @@ const Projects = () => {
         fetch('/projects.json')
             .then(res => res.json())
             .then(data => {
-                const details = data.find(pd => pd._id == projectId)
+                const details = data.find(pd => pd._id === projectId)
                 setProject(details)
             })
     }, [projectId])
