@@ -15,7 +15,8 @@ const Profile = () => {
                         <h2>Junior Full Stack Web Developer</h2>
                         <h3>Build Your Own Website</h3>
                         <br />
-                        <a className="link-button" target="_blank" href="Md-Tanber-Resume.pdf" download="Md-Tanber-Resume.pdf">Download My Resume</a>
+                        <a className="link-button" target="_blank"
+                            href="Md-Tanber-Resume.pdf" download="Md-Tanber-Resume.pdf">Resume</a>
                     </div>
                     <div className="col-md-5 picture">
                         <img src={pic1} alt="" />
