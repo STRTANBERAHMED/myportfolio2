@@ -1,7 +1,7 @@
 import React from 'react';
 import './Profile.css';
 import Appbar from '../Appbar/Appbar';
-import pic1 from '../../images/tanber-pic-with-bg.png';
+import pic1 from '../../images/IMG_0018.JPG';
 
 const Profile = () => {
     return (
@@ -19,7 +19,7 @@ const Profile = () => {
                             href="Md-Tanber-Resume.pdf" download="Md-Tanber-Resume.pdf">Resume</a>
                     </div>
                     <div className="col-md-5 picture">
-                        <img src={pic1} alt="" />
+                        <img className="profile-picture" src={pic1} alt="" />
                     </div>
                 </div>
             </div>

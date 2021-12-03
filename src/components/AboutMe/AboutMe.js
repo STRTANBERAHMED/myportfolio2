@@ -1,5 +1,5 @@
 import React from 'react';
-import pic2 from '../../images/tanber-pic-with-bg2.png';
+import pic2 from '../../images/IMG_2975.JPG';
 import Appbar from '../Appbar/Appbar';
 import Footer from '../Footer/Footer';
 import './AboutMe.css';
@@ -11,7 +11,7 @@ const AboutMe = () => {
             <div className="container grid mt-5">
                 <div className="row">
                     <div className="col-md-5 picture">
-                        <img src={pic2} alt="" />
+                        <img className="profile-picture" src={pic2} alt="" />
                     </div>
                     <div className="col-md-7 mt-5 text-start">
                         <h1>My Dream</h1>

@@ -35,7 +35,7 @@ function App() {
             <Route path="/projects/:projectId">
               <Projects></Projects>
             </Route>
-            <Route path="/contactMe">
+            <Route path="/contactForm">
               <ContactForm></ContactForm>
             </Route>
             <Route path="*">
