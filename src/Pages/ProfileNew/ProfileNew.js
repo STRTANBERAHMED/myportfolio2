@@ -19,7 +19,7 @@ const ProfileNew = () => {
                 </div>
                 <div className="home-text">
                     <span>Hello, I'm</span>
-                    <h1>Md Tanber</h1>
+                    <h1>MD TANBER</h1>
                     <h2><Typewriter
                         words={[
                             "MERN Stake Developer",
