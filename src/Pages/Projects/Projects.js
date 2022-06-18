@@ -9,7 +9,7 @@ const Projects = () => {
         <div className="mt-5 portfolio" id="portfolio">
             <div className="heading">
                 <h2>My Projects</h2>
-                <span>Our Recent Work</span>
+                <span>My Recent Work</span>
             </div>
             <div className="portfolio-content">
                 <div className="portfolio-img">
