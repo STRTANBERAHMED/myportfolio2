@@ -12,11 +12,12 @@ import ContactForm from './components/ContactForm/ContactForm';
 import Projects from './components/Projects/Projects';
 import Blogs from './components/Blogs/Blogs';
 import AboutMe from './components/AboutMe/AboutMe';
+import FooterNew from './Pages/FooterNew/FooterNew';
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
+    <div className="">
+      <div className="App">
         <Router>
           {/* <Appbar></Appbar> */}
           <Switch>
@@ -45,6 +46,7 @@ function App() {
           {/* <Footer></Footer> */}
         </Router>
       </div>
+      <FooterNew>-</FooterNew>
     </div>
   );
 }

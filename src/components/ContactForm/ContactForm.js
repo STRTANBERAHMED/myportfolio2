@@ -2,6 +2,8 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import Appbar from '../Appbar/Appbar';
 import Footer from '../Footer/Footer';
+import FooterNew from '../../Pages/FooterNew/FooterNew';
+import Header from '../../Pages/Header/Header';
 
 const ContactForm = () => {
 
@@ -19,40 +21,26 @@ const ContactForm = () => {
 
     return (
         <div>
-            <Appbar></Appbar>
+            <Header></Header>
             <div className="container py-5">
-                <form onSubmit={sendEmail}>
-                    <div className="row pt-5 mx-auto">
-                        <div className="col-8 form-group mx-auto">
-                            <input type="text" className="form-control" placeholder="Name" name="name"
-                                required
-                            />
-                        </div>
-                        <div className="col-8 pt-2 form-group mx-auto">
-                            <input type="email" className="form-control" placeholder="Email Address" name="email"
-                                required
-                            />
-                        </div>
-                        <div className="col-8 pt-2 form-group mx-auto">
-                            <input type="text" className="form-control" placeholder="Subject" name="subject"
-                                required
-                            />
-                        </div>
-                        <div className="col-8 pt-2 form-group mx-auto">
-                            <textarea className="form-control"
-                                cols="30"
-                                rows="8"
-                                placeholder="Your Message" name="message"
-                                required
-                            />
-                        </div>
-                        <div className="col-8 pt-3 mx-auto">
-                            <input type="submit" className="btn btn-info" value="send message" />
-                        </div>
+                <div className="contact" id="contact">
+                    <div className="heading">
+                        <h2>Contact</h2>
+                        <span>Contact With Me</span>
                     </div>
-                </form>
+                    <div className="contact-form">
+                        <form onSubmit={sendEmail} className="contact-formu" action="">
+                            <input type="text" placeholder="Your Name" id="fullName" name="name" />
+                            <input type="email" name="email" id="email_id" placeholder="Your Email" />
+                            <input type="text" name="subject" className="subject" placeholder="subject" />
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                            <input type="submit" className="btn contact-btn" value="send message" />
+                            {/* <!-- <button onclick="sendMail()">send</button> --> */}
+                        </form>
+                    </div>
+                </div>
             </div>
-            <Footer></Footer>
+            <FooterNew></FooterNew>
         </div>
         // <form onSubmit={sendEmail}>
         //     <label>Name</label>

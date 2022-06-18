@@ -1,6 +1,20 @@
 .App {
-  text-align: center;
+  /* text-align: center;
   background-image: linear-gradient(rgb(240, 251, 252), rgb(151, 232, 247));
+  width: 100%; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  padding: 00px 10%;
+}
+
+*::selection {
+  color: var(--bg-color);
+  background: var(--main-color);
 }
 
 .App-logo {
@@ -33,6 +47,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

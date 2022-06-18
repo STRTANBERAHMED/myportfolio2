@@ -1,9 +1,9 @@
-.footer{
-    background-image: linear-gradient(rgb(151, 232, 247), rgb(240, 251, 252));
+.footer {
+  /* background-image: linear-gradient(rgb(151, 232, 247), rgb(240, 251, 252)); */
   /* min-width: 100%;
   min-height: 100%;
   background-size: cover;
   background-position: center; */
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  /* border-top-left-radius: 50px;
+  border-top-right-radius: 50px; */
 }
