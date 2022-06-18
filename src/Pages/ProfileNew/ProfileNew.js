@@ -33,7 +33,8 @@ const ProfileNew = () => {
                         deleteSpeed={50}
                         delaySpeed={1000}
                     /></h2>
-                    <p>Waiting for a challenging role, but still exploring new <br />technologies and frameworks which catch my interest!<br /> if you're looking for a developer to add to your team,<br /> I'd love to hear from you!</p>
+                    <p>Waiting for a challenging role, but still exploring <br /> new technologies and frameworks which catch <br />
+                        my interest! if you're looking for a developer to <br /> add to your team, I'd love to hear from you!</p>
                     <a href="#contact" className="btn">Contact Me</a>
                 </div>
 
