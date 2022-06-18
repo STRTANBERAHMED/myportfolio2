@@ -1,4 +1,4 @@
-/* .header {
+.header {
     position: fixed;
     width: 100%;
     top: 0;
@@ -30,7 +30,7 @@
 }
 
 .navbar a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: 10px 20px;
     color: #0f0c27;
     font-weight: 700;
@@ -51,7 +51,7 @@
 #darkmode {
     font-size: 22px;
     cursor: pointer;
-} */
+}
 
 /* Making Responsive */
 /* @media (max-width:991px) {
@@ -211,16 +211,16 @@
     display: none;
 }
 
-.single-link {
+/* .single-link {
     text-decoration: none;
     font-size: 1.1rem;
     padding: 5px 10px;
     color: #0f0c27;
     font-weight: bolder;
     color: black;
-}
+} */
 
-.single-link:hover {
+/* .single-link:hover {
     color: hsl(260, 100%, 51%);
 }
 
@@ -229,7 +229,7 @@
     margin-left: 20px;
     font-weight: bold;
     color: black;
-}
+} */
 
 .logout-btn {
     background-color: black;
@@ -258,6 +258,11 @@
 }
 
 @media screen and (max-width: 800px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
 
     .nav-menu {
         display: flex;
@@ -293,10 +298,10 @@
         color: black;
     }
 
-    .single-link:hover {
+    /* .single-link:hover {
         background-color: hsl(260, 100%, 51%);
         color: #fff;
-    }
+    } */
 
     .menu-icon {
         display: block;

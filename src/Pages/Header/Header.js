@@ -37,19 +37,28 @@ const Header = () => {
                     <div className="bx bx-moon" id="darkmode"></div>
                 </ul>
             </div> */}
-            <nav className='all-items'>
+            <nav className='all-items header'>
                 <div className='logo-img'>
                     <a href="#" className="logo">MD TANBER</a>
                 </div>
 
                 <div className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <Link className='single-link' to='/home'>Home</Link>
+                    <ul className="navbar">
+                        <li className='single-link'><a href="#home">Home</a></li>
+                        <li className='single-link'><a href="#about">About</a></li>
+                        <li className='single-link'><a href="#skills">Skills</a></li>
+                        <li className='single-link'><a href="#services">Services</a></li>
+                        <li className='single-link'><a href="#portfolio">Projects</a></li>
+                        <li className='single-link'><a href="#contact">Contact</a></li>
+                        {/* <div className="bx bx-moon" id="darkmode"></div> */}
+                    </ul>
+                    {/* <Link className='single-link' to='/home'>Home</Link>
                     <Link className='single-link' to='/aboutMe'>About</Link>
                     <Link className='single-link' to='/services'>Services</Link>
                     <Link className='single-link' to='/skills'>Skills</Link>
                     <Link className='single-link' to='/projects'>Projects</Link>
                     <Link className='single-link' to='/blogs'>Blogs</Link>
-                    <Link className='single-link' to='/contactForm'>Contact Me</Link>
+                    <Link className='single-link' to='/contactForm'>Contact Me</Link> */}
                 </div>
                 <div onClick={handleClick} className='menu-icon'>
                     <i className={click ? 'bx bxs-message-square-x icon-style' : 'bx bx-menu icon-style'}></i>
