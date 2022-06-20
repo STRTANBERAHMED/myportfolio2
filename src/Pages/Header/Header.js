@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import DarkMode from '../DarkMode/DarkMode';
+import Toggle from '../Toggle/Toggle';
 import './Header.css';
 
 const Header = () => {
@@ -37,19 +39,20 @@ const Header = () => {
                     <div className="bx bx-moon" id="darkmode"></div>
                 </ul>
             </div> */}
-            <nav className='all-items header'>
+            <nav className='all-items header' data-aos="zoom-out-down" data-aos-duration="1800">
                 <div className='logo-img'>
                     <a href="#" className="logo">MD TANBER</a>
+                    {/* <Toggle></Toggle> */}
                 </div>
 
                 <div className={click ? 'nav-menu active' : 'nav-menu'}>
                     <ul className="navbar">
-                        <li className='single-link'><a href="#home">Home</a></li>
+                        <li className='single-link'><a href="/home">Home</a></li>
                         <li className='single-link'><a href="#about">About</a></li>
                         <li className='single-link'><a href="#skills">Skills</a></li>
                         <li className='single-link'><a href="#services">Services</a></li>
                         <li className='single-link'><a href="#portfolio">Projects</a></li>
-                        <li className='single-link'><a href="#contact">Contact</a></li>
+                        <li className='single-link'><a href="/contactForm">Contact</a></li>
                         {/* <div className="bx bx-moon" id="darkmode"></div> */}
                     </ul>
                     {/* <Link className='single-link' to='/home'>Home</Link>

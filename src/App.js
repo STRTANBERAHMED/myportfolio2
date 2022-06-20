@@ -13,13 +13,30 @@ import Projects from './components/Projects/Projects';
 import Blogs from './components/Blogs/Blogs';
 import AboutMe from './components/AboutMe/AboutMe';
 import FooterNew from './Pages/FooterNew/FooterNew';
+import { useState } from 'react';
+import styled, { ThemeProvider } from 'styled-components';
+import { darkTheme, GlobalStyles, lightTheme } from './themes.js';
+import Footer from './components/Footer/Footer';
+// import { themeContext } from './Context';
+// import { useContext } from "react";
+
+// const StyledApp = styled.div``;
 
 function App() {
+
+  // const [theme, setTheme] = useState('light');
+
+  // const themeToggle = () => {
+  //   theme === "light" ? setTheme("dark") : setTheme("light");
+  // };
+
   return (
     <div className="">
+      {/* <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+        <GlobalStyles></GlobalStyles>
+        <StyledApp>Hello world</StyledApp> */}
       <div className="App">
         <Router>
-          {/* <Appbar></Appbar> */}
           <Switch>
             <Route exact path="/">
               <Home></Home>
@@ -43,10 +60,11 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
-          {/* <Footer></Footer> */}
         </Router>
       </div>
-      <FooterNew>-</FooterNew>
+      <Footer></Footer>
+      {/* <FooterNew>-</FooterNew> */}
+      {/* </ThemeProvider> */}
     </div>
   );
 }

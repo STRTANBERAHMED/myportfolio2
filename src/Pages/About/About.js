@@ -4,7 +4,7 @@ import pic2 from '../../images/pic2.JPG';
 
 const About = () => {
     return (
-        <div className="about" id="about">
+        <div className="about" id="about" data-aos="fade-down-right" data-aos-duration="1800">
             <div className="heading">
                 <h2>About</h2>
                 <span>Introduction</span>
@@ -37,8 +37,7 @@ const About = () => {
                             <span>md.tanber4433@gmail.com</span>
                         </div>
                     </div>
-                    <a target="_blank" href="Md-Tanber-Resume.pdf" download="Md-Tanber-Resume.pdf" className="btn">Download
-                        Resume</a>
+                    <a href="/contactForm" className="btn">Contact Me</a>
                 </div>
             </div>
         </div>

@@ -25,6 +25,8 @@
 
 .logo-img {
     margin-top: -12px;
+    display: flex;
+    gap: 20px;
 }
 
 .navbar {
@@ -36,6 +38,14 @@
 .navbar a {
     font-size: 1rem;
     padding: 10px 20px;
+    color: #0f0c27;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.single-links {
+    font-size: 1rem;
+    padding: 0;
     color: #0f0c27;
     font-weight: 500;
     text-decoration: none;

@@ -40,7 +40,6 @@ const ContactForm = () => {
                     </div>
                 </div>
             </div>
-            <FooterNew></FooterNew>
         </div>
         // <form onSubmit={sendEmail}>
         //     <label>Name</label>

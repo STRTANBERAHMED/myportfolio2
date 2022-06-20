@@ -4,7 +4,7 @@ import './Skills.css';
 
 const Skills = () => {
     return (
-        <div className="skills mt-5" id="skills">
+        <div className="skills mt-5" id="skills" data-aos="fade-down-left" data-aos-duration="1800">
             <div className="heading">
                 <h2>Skills</h2>
                 <span>My Skills</span>

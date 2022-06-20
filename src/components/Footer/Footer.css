@@ -1,9 +1,38 @@
-.footer {
-  /* background-image: linear-gradient(rgb(151, 232, 247), rgb(240, 251, 252)); */
-  /* min-width: 100%;
-  min-height: 100%;
-  background-size: cover;
-  background-position: center; */
-  /* border-top-left-radius: 50px;
-  border-top-right-radius: 50px; */
+.footer-container {
+  margin-top: auto;
 }
+
+.footer {
+  background-color: #4a00e0;
+  color: #fff;
+  padding: 30px;
+  padding-top: 50px;
+  text-align: left;
+}
+
+.services ul {
+  list-style: none;
+}
+
+.services a {
+  text-decoration: none;
+  color: rgb(2, 5, 37);
+}
+
+.services li {
+  transition: .3s letter-spacing;
+}
+
+.services a:hover {
+  color: hsl(260, 100%, 51%);
+}
+
+.lg {
+  font-size: 50px;
+  justify-content: center;
+  color: #fff;
+}
+
+/* .socials {
+  text-align: center;
+} */

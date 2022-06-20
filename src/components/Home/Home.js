@@ -9,11 +9,13 @@ import Skills from '../../Pages/Skills/Skills';
 import Services from '../../Pages/Services/Services';
 import Projects from '../../Pages/Projects/Projects';
 import FooterNew from '../../Pages/FooterNew/FooterNew';
+import Header from '../../Pages/Header/Header';
 
 const Home = () => {
     return (
         <div id="home">
             {/* <Profile></Profile> */}
+            <Header></Header>
             <ProfileNew></ProfileNew>
             <About></About>
             <Skills></Skills>

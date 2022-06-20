@@ -17,7 +17,8 @@ const FooterNew = () => {
     };
 
     return (
-        <div>
+        <div data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
             <div className="footer">
                 <div className="footer-info">
                     <h2>MD TANBER</h2>
@@ -34,20 +35,22 @@ const FooterNew = () => {
                 <div className="">
 
                 </div>
-                <div className="contact" id="contact">
-                    <div className="heading">
-                        <h2>Contact</h2>
-                        <span>Contact With Me</span>
-                    </div>
-                    <div className="contact-form">
-                        <form onSubmit={sendEmail} className="contact-formu" action="">
-                            <input type="text" placeholder="Your Name" id="fullName" name="name" />
-                            <input type="email" name="email" id="email_id" placeholder="Your Email" />
-                            <input type="text" name="subject" className="subject" placeholder="subject" />
-                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-                            <input type="submit" className="btn contact-btn" value="send message" />
-                            {/* <!-- <button onclick="sendMail()">send</button> --> */}
-                        </form>
+                <div className="">
+                    <div className="contact" id="contact">
+                        <div className="heading">
+                            <h2>Contact</h2>
+                            <span>Contact With Me</span>
+                        </div>
+                        <div className="contact-form">
+                            <form onSubmit={sendEmail} className="contact-formu" action="">
+                                <input type="text" placeholder="Your Name" id="fullName" name="name" />
+                                <input type="email" name="email" id="email_id" placeholder="Your Email" />
+                                <input type="text" name="subject" className="subject" placeholder="subject" />
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                                <input type="submit" className="btn contact-btn" value="send message" />
+                                {/* <!-- <button onclick="sendMail()">send</button> --> */}
+                            </form>
+                        </div>
                     </div>
                 </div>
 

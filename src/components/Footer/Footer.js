@@ -1,72 +1,69 @@
 import React from 'react';
-import emailjs from 'emailjs-com';
-import './Footer.css';
+import './Footer.css'
 
 const Footer = () => {
-
-    const sendEmail = (e) => {
-        e.preventDefault();
-
-        emailjs.sendForm('gmail', 'template_97e6o1k', e.target, 'user_aPUqjbrWYbXRwQnxGCYu1')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-        e.target.reset()
-    };
-
     return (
-        <div className="footer p-5 text-dark">
-            <h1>Contact Info</h1>
-            <div className="d-flex justify-content-center mt-4">
-                <div className="row">
-                    <div className="col-md-6">
-                        <h3>Email</h3>
-                        <p>md.tanber4433@gmail.com</p>
-                        <h3>Phone</h3>
-                        <p>+905527316001</p>
-                        <h3>Current Address</h3>
-                        <p>Baris Mahalle, Safranbolu, Karabuk, Turkey</p>
-                        <h3>Parmanent Address</h3>
-                        <p>Nandail, Mymensingh, Bnagladesh</p>
-                    </div>
-                    <div className="col-md-6">
-                        <div className="container">
-                            <form onSubmit={sendEmail}>
-                                <div className="row  mx-auto">
-                                    <div className="col-8 form-group mx-auto">
-                                        <input type="text" className="form-control" placeholder="Name" name="name"
-                                            required
-                                        />
-                                    </div>
-                                    <div className="col-8 pt-2 form-group mx-auto">
-                                        <input type="email" className="form-control" placeholder="Email Address" name="email"
-                                            required />
-                                    </div>
-                                    <div className="col-8 pt-2 form-group mx-auto">
-                                        <input type="text" className="form-control" placeholder="Subject" name="subject"
-                                            required
-                                        />
-                                    </div>
-                                    <div className="col-8 pt-2 form-group mx-auto">
-                                        <textarea className="form-control"
-                                            cols="30"
-                                            rows="8"
-                                            placeholder="Your Message" name="message"
-                                            required
-                                        />
-                                    </div>
-                                    <div className="col-8 pt-3 mx-auto">
-                                        <input type="submit" className="btn btn-info" value="send message" />
-                                    </div>
-                                </div>
-                            </form>
+        <div className="footer-container">
+            <div className="footer">
+                <div className="container">
+                    <div className=" row justify-content-center text-white" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                        <div className="col-md-4">
+                            <div>
+                                <h2 className="fs-3 fw-bold  ">MD TANBER</h2>
+                                <p >A passionate developer whom you want to have in your team. He is Waiting for your message.</p>
+                            </div>
+                            <div className="social-link">
+
+                            </div>
+                            <div>
+                                <p>&#169; Md Tanber All Right Reserved.</p>
+                            </div>
+                        </div>
+                        {/* our services */}
+                        <div className=" services text-left col-md-3">
+
+                            <ul>
+                                <h5>Current Address</h5>
+                                <p>Baris Mahalle, Safranbolu, Karabuk, Turkey</p>
+                                <h5>Parmanent Address</h5>
+                                <p>Nandail, Mymensingh, Bnagladesh</p>
+                            </ul>
+
+
+                        </div>
+
+                        {/* our services */}
+                        <div className=" services text-left col-md-3">
+
+                            <ul>
+                                <h5>Services</h5>
+                                <li>
+                                    <a className='text-white' href="">Front End Development</a>
+                                </li>
+                                <li>
+                                    <a className='text-white' href="">Back End Development</a>
+                                </li>
+                                <li>
+                                    <a className='text-white' href="">Problem Solving</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        {/* our services */}
+
+                        <div className=" services text-left col-md-2">
+
+                            <ul>
+                                <h5 className='socials'>Socials</h5>
+                                <a href="https://medium.com/@md.tanber4433"><i className="lg bx bxl-medium-square"></i></a>
+                                <a href="https://www.instagram.com/strtanber/"><i className="lg bx bxl-twitter"></i></a>
+                                <a href="https://twitter.com/StrTanber"><i className="lg bx bxl-instagram"></i></a>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <p>©2021. Md Tanber portfolio. All rights reserved.</p>
         </div>
     );
 };

@@ -6,8 +6,7 @@ import './ProfileNew.css';
 
 const ProfileNew = () => {
     return (
-        <div className="">
-            <Header></Header>
+        <div className="" data-aos="zoom-out-up" data-aos-duration="1800">
             <div className="home" id="home">
                 <div className="social">
                     <a href="https://github.com/STRTANBERAHMED"><i className="bx bxl-github"></i></a>
@@ -35,7 +34,8 @@ const ProfileNew = () => {
                     /></h2>
                     <p>Waiting for a challenging role, but still exploring <br /> new technologies and frameworks which catch <br />
                         my interest! if you're looking for a developer to <br /> add to your team, I'd love to hear from you!</p>
-                    <a href="#contact" className="btn">Contact Me</a>
+                    <a target="_blank" href="Md-Tanber-Resume.pdf" download="Md-Tanber-Resume.pdf" className="btn">Download
+                        Resume</a>
                 </div>
 
                 <div className="scroll-down">
