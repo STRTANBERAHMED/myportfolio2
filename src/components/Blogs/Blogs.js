@@ -25,7 +25,7 @@ const Blogs = () => {
                         <img src={pic2} class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">Let's Explore React</h5>
-                            <p class="card-text">PropTypes: propTypes means in the component we can write what type of props is this. As a data type is a string, number, boolean, or anything we can pass these props types.</p>
+                            <p class="card-text">React is one of the best javascript framework. It gives the best-rendering performance, clean code, rich user interface, etc. React build single-page applications.</p>
                             <a href="https://dev.to/strtanberahmed/lets-explore-react-56l1" class="text-center btn btn-primary">Read More</a>
                         </div>
                     </div>
