@@ -3,6 +3,12 @@
     margin-bottom: 20px;
 }
 
+.card {
+    border-radius: 20px;
+}
+
 .card img {
     height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
