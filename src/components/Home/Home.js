@@ -10,6 +10,7 @@ import Services from '../../Pages/Services/Services';
 import Projects from '../../Pages/Projects/Projects';
 import FooterNew from '../../Pages/FooterNew/FooterNew';
 import Header from '../../Pages/Header/Header';
+import Blogs from '../Blogs/Blogs';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <Skills></Skills>
             <Services></Services>
             <Projects></Projects>
+            <Blogs></Blogs>
             {/* <MyProjects></MyProjects> */}
             {/* <MySkills></MySkills>
             <Footer></Footer> */}

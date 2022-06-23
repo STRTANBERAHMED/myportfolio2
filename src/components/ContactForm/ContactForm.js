@@ -22,7 +22,7 @@ const ContactForm = () => {
     return (
         <div>
             <Header></Header>
-            <div className="container py-5">
+            <div className="container py-5 mt-5" data-aos="zoom-out" data-aos-duration="2000">
                 <div className="contact" id="contact">
                     <div className="heading">
                         <h2>Contact</h2>

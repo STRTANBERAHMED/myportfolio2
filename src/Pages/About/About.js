@@ -18,7 +18,7 @@ const About = () => {
                         something new. He did some group projects and explored new technologies such as Mongoose and Redux.
                         He loves to code in a much cleaner way so that anyone can understand. As a Full Stack Developer,
                         finished many projects with front end and backend using react, javascript, node.js, express.js and
-                        mongodb. I am always energetic and eager to learn new skills. Adept at contributing to a highly
+                        mongodb. He is always energetic and eager to learn new skills. Adept at contributing to a highly
                         collaborative work environment and determined to finding a solution.</p>
                     <div className="information">
                         {/* <!-- Box 1 --> */}

@@ -47,11 +47,12 @@ const Header = () => {
 
                 <div className={click ? 'nav-menu active' : 'nav-menu'}>
                     <ul className="navbar">
-                        <li className='single-link'><a href="/home">Home</a></li>
-                        <li className='single-link'><a href="#about">About</a></li>
-                        <li className='single-link'><a href="#skills">Skills</a></li>
-                        <li className='single-link'><a href="#services">Services</a></li>
-                        <li className='single-link'><a href="#portfolio">Projects</a></li>
+                        <li className='single-link'><a href="/home#home">Home</a></li>
+                        <li className='single-link'><a href="/home#about">About</a></li>
+                        <li className='single-link'><a href="/home#skills">Skills</a></li>
+                        <li className='single-link'><a href="/home#services">Services</a></li>
+                        <li className='single-link'><a href="/home#portfolio">Projects</a></li>
+                        <li className='single-link'><a href="/blogs">Blogs</a></li>
                         <li className='single-link'><a href="/contactForm">Contact</a></li>
                         {/* <div className="bx bx-moon" id="darkmode"></div> */}
                     </ul>

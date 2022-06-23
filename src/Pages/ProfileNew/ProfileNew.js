@@ -1,13 +1,12 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import pic1 from '../../images/pic1.JPG';
-import Header from '../Header/Header';
 import './ProfileNew.css';
 
 const ProfileNew = () => {
     return (
-        <div className="" data-aos="zoom-out-up" data-aos-duration="1800">
-            <div className="home" id="home">
+        <div className="">
+            <div className="home" id="home" data-aos="zoom-out-up" data-aos-duration="1800">
                 <div className="social">
                     <a href="https://github.com/STRTANBERAHMED"><i className="bx bxl-github"></i></a>
                     <a href="https://www.facebook.com/str.ahmed.92/"><i className="bx bxl-facebook-circle"></i></a>

@@ -13,7 +13,7 @@ const Projects = () => {
 
     return (
         <div className="mt-5 portfolio" id="portfolio">
-            <div className="heading">
+            <div className="heading" data-aos="zoom-in" data-aos-duration="2000">
                 <h2>My Projects</h2>
                 <span>My Recent Work</span>
             </div>

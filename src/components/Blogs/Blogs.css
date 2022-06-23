@@ -1,4 +1,8 @@
-.blogs{
+.blogs {
     margin-top: 150px;
-    margin-bottom: 150px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 150px;
 }

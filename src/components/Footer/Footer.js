@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="footer-container">
             <div className="footer">
                 <div className="container">
-                    <div className=" row justify-content-center text-white" data-aos="fade-up"
+                    <div className=" row justify-content-center text-white" data-aos="fade-down"
                         data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
                         <div className="col-md-4">
                             <div>
