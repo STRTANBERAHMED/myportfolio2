@@ -27,7 +27,7 @@ const Footer = () => {
                                 <h5>Current Address</h5>
                                 <p>Baris Mahalle, Safranbolu, Karabuk, Turkey</p>
                                 <h5>Parmanent Address</h5>
-                                <p>Nandail, Mymensingh, Bnagladesh</p>
+                                <p>Nandail, Mymensingh, Bangladesh</p>
                             </ul>
 
 

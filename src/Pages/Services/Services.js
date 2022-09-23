@@ -7,7 +7,7 @@ const Services = () => {
             data-aos-duration="3000">
             <div className="heading">
                 <h2>Services</h2>
-                <span>Our Services</span>
+                <span>My Services</span>
             </div>
             <div className="services-content">
                 {/* <!-- Box 1 --> */}
