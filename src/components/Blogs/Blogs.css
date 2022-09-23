@@ -1,6 +1,10 @@
 .blogs {
-    margin-top: 150px;
-    margin-bottom: 20px;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+.blog {
+    padding-bottom: 50px;
 }
 
 .card {

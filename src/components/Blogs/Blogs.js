@@ -9,7 +9,7 @@ const Blogs = () => {
         <div>
             <Header></Header>
             <h2 className='blogs text-center' data-aos="fade-zoom-in" data-aos-duration="1800">My Blogs</h2>
-            <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-zoom-in" data-aos-duration="1800">
+            <div class="blog row row-cols-1 row-cols-md-2 g-4" data-aos="fade-zoom-in" data-aos-duration="1800">
                 <div class="col">
                     <div class="card">
                         <img src={pic1} class="card-img-top" alt="..." />
