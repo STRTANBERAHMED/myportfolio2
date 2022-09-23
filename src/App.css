@@ -10,6 +10,7 @@
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
   padding: 00px 10%;
+  background-color: aliceblue;
 }
 
 *::selection {

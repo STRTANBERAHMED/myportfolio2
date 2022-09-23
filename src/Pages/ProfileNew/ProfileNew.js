@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
-import pic1 from '../../images/pic1.JPG';
+import pic1 from '../../images/pic3.png';
 import './ProfileNew.css';
 
 const ProfileNew = () => {

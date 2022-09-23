@@ -10,17 +10,19 @@
     background: #fff;
     padding: 18px 10%;
     transition: 0.2s;
-}
-
-.header.shadow {
     box-shadow: 0 0 4px rgb(14 55 54 / 15%);
 }
 
+/* .all-items.shadow {
+    box-shadow: 0 0 4px rgb(14 55 54 / 35%);
+} */
+
 .logo {
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-size: 1.4rem;
+    font-weight: 800;
     color: #0f0c27;
     text-decoration: none;
+    padding-top: 8px;
 }
 
 .logo-img {
@@ -36,7 +38,7 @@
 }
 
 .navbar a {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 10px 20px;
     color: #0f0c27;
     font-weight: 500;

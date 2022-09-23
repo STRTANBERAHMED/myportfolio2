@@ -15,8 +15,9 @@
 
 .home-img img {
     width: 60%;
-    box-shadow: 0 2px 3px 3px #4a00e0;
-    border-radius: 50%;
+    /* box-shadow: 0 2px 3px 3px #4a00e0; */
+    box-shadow: 0 2px 3px 3px #fff;
+    border-radius: 10%;
     height: 380px;
     width: 380px;
     margin: 0 0px;
